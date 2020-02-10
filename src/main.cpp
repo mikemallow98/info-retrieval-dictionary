@@ -1,5 +1,6 @@
 #include <iostream>
 #include <unistd.h> //required for getopt()
+#include "main.hpp"
 
 int main(int argc, char * argv[]){
 	//argument parsing

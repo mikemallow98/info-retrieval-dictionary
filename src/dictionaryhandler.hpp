@@ -1,0 +1,6 @@
+#ifndef DICTIONARYHANDLER
+#define DICTIONARYHANDLER
+
+
+
+#endif

@@ -1,4 +1,4 @@
-#IFNDEF MAIN
-#DEFINE MAIN
+#ifndef MAIN
+#define MAIN
 
-#ENDIF
+#endif

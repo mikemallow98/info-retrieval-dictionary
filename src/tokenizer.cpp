@@ -1,4 +1,6 @@
 #include "tokenizer.hpp"
+#include <iostream>
+
 #include "fileparser.hpp"
 
 
@@ -24,6 +26,10 @@ Tokenizer::Tokenizer(std::string input_filename){
  */ 
 std::vector<TermPair> Tokenizer::tokenize(){
     std::vector<TermPair> terms;
+    std::vector<Document> docs;
+    FileParser fp(inp_file);
+    docs = fp.parse();
+
     return terms;
 }
 

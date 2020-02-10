@@ -12,7 +12,7 @@ CC = g++
 CFLAGS = -Wall
 
 
-$(BUILD_DIR)/$(TARGET_EXEC): $(OBJS)
+$(TARGET_EXEC): $(OBJS)
 	$(CC) $(OBJS) -o $@ 
 
 $(BUILD_DIR)/%.cpp.o: %.cpp
@@ -22,6 +22,7 @@ $(BUILD_DIR)/%.cpp.o: %.cpp
 
 clean:
 	$(RM) -r $(BUILD_DIR)
+	$(RM) $(TARGET_EXEC)
 
 -include $(DEPS)
 

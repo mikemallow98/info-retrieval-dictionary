@@ -1,6 +1,8 @@
 #include <iostream>
 #include <unistd.h> //required for getopt()
 #include <string>
+#include <vector>
+
 #include "main.hpp"
 #include "tokenizer.hpp"
 #include "postinghandler.hpp"
@@ -41,4 +43,19 @@ int main(int argc, char * argv[]){
 		std::cerr << "Error. Missing input file argument. Run with -h for help." << std::endl;
 		exit(-1);
 	}
+	//various lists needed to pass between classes.
+	std::vector<TermPair> t_pairs;
+	std::vector<DictionaryEntry> d_entries;
+
+	//run the tokenizer to create the term pair list.
+	Tokenizer t1(input_filename);
+	t_pairs = t1.tokenize();
+
+	//Run the PostingHandler to create the dictionary entries list.
+	//PostingHandler p1(t_pairs);
+	//d_entries = p1.calculate();
+
+	//Run the Results to create the results.
+	//Results r1(dictionary_filename, postings_filename, d_entries);
+	//r1.print();
 }

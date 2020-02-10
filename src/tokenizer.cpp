@@ -1,4 +1,5 @@
 #include "tokenizer.hpp"
+#include "fileparser.hpp"
 
 
 /**
@@ -11,4 +12,18 @@
  * After doing this, the tokenizer will sort the terms alphabetically and return the list. 
  * 
  */
+
+
+
+Tokenizer::Tokenizer(std::string input_filename){
+    inp_file = input_filename;
+}
+
+/**
+ * First calls the fileparser to parse the file. After that, makes calls to private methods to tokenize the terms and then returns a vector<TermPair> of the terms.
+ */ 
+std::vector<TermPair> Tokenizer::tokenize(){
+    std::vector<TermPair> terms;
+    return terms;
+}
 

@@ -9,5 +9,3 @@ Optional arguments: -d \<dictionary output file name\>, -p \<posting output file
 
 To clean, run "make clean"
 
-
-trying to use gits -Piril

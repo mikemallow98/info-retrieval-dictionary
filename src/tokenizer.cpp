@@ -104,3 +104,54 @@ std::vector<TermPair> Tokenizer::tokenize(){
     return terms;
 }
 
+/*
+https://iq.opengenus.org/porter-stemmer/
+Following this link to apply Porter's Stemmer algorithm
+*/
+
+vector<string> Tokenizer::PorterStemmer(string input){
+
+}
+
+/*
+The word "Y" is a consonant if it is preceded by a consonant, otherwise it is a vowel
+*/
+
+bool Tokenizer::consonant(vector<string> input,int i){
+
+    if(input.at(i)=="a" or input.at(i)=="e" or input.at(i)=="i" or input.at(i)=="o" or input.at(i)=="u") return 0;
+    else return 1;
+
+    if(input.at(i)=="y" and (input.at(i-1)!="a" or input.at(i-1)!="e" or input.at(i-1)!="i" or input.at(i-1)!="o" or input.at(i-1)!="u")) return 0;
+    else return 1;
+}
+/*
+Words other than consonantes are vowels
+*/
+bool Tokenizer::vowel(vector<string> input,int i){
+    if(consonant(input,i)==0) return 1;
+    else return 0;
+}
+
+/*
+Returns true if the input string str ends with "ending" string 
+*/
+
+bool Tokenizer::endsWith(string& str, string& ending){
+    if (str.length() >= ending.length()) {
+        return (0 == str.compare (str.length() - ending.length(), ending.length(), ending));
+    } else {
+        return false;
+    }
+}
+
+/*bool Tokenizer::doubleConsonant(string& input){
+    if (input.length()>=2){
+      if(consonant(input.at(input.length())) and consonant(input.at(input.length()-1)) ) return true;
+      else return false;
+    }
+    return false;
+}*/
+
+
+

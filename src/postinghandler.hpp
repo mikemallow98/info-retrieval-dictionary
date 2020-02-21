@@ -24,6 +24,7 @@ class PostingHandler{
     private:
         std::vector<TermPair> terms_list;
         std::vector<DictionaryEntry> dic_ent;
+        static bool compare_terms(TermPair t1, TermPair t2);
 };
 
 

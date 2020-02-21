@@ -131,9 +131,9 @@ std::vector<TermPair> Tokenizer::tokenize(){
         int m;
         std::strcpy(tmp, i->term.c_str());
         m = stem(tmp, 0, i->term.length()-1);
-        std::string str1 = i->term.substr(0, m+1);
+        std::string str1 = i->term.substr(0, m+1) + '\0';
         i->term = str1;
-        //std::cerr << i->term << " "<< i->docID <<std::endl;
+        std::cout << i->term << " "<< i->docID <<std::endl;
     }
     //std::cerr << "Stemming is done" << std::endl;
     sort_terms();

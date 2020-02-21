@@ -50,13 +50,16 @@ int main(int argc, char * argv[]){
 	//run the tokenizer to create the term pair list.
 	Tokenizer t1(input_filename);
 	t_pairs = t1.tokenize();
-	for(auto i = t_pairs.begin(); i != t_pairs.end(); ++i){
-		std::cout << i->term << std::endl;
-	}
+	//for(auto i = t_pairs.begin(); i != t_pairs.end(); ++i){
+		//std::cout << i->term << std::endl;
+	//}
 
 	//Run the PostingHandler to create the dictionary entries list.
-	//PostingHandler p1(t_pairs);
-	//d_entries = p1.calculate();
+	PostingHandler p1(t_pairs);
+	d_entries = p1.calculate();
+	for(auto i = d_entries.begin(); i != d_entries.end(); ++i){
+		//std::cout << i->term << "\t" << i->document_frequency << std::endl;
+	}
 
 	//Run the Results to create the results.
 	//Results r1(dictionary_filename, postings_filename, d_entries);

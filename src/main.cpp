@@ -50,6 +50,9 @@ int main(int argc, char * argv[]){
 	//run the tokenizer to create the term pair list.
 	Tokenizer t1(input_filename);
 	t_pairs = t1.tokenize();
+	for(auto i = t_pairs.begin(); i != t_pairs.end(); ++i){
+		std::cout << i->term << std::endl;
+	}
 
 	//Run the PostingHandler to create the dictionary entries list.
 	//PostingHandler p1(t_pairs);

@@ -1,0 +1,584 @@
+	0
+0.4	2
+10	3
+107	5
+10th	6
+10year	7
+13600	8
+1930s	9
+2008	10
+2008style	11
+2009	12
+2012	13
+3	14
+37	15
+40.6	16
+7	17
+7	18
+7.2	19
+7session	20
+8	21
+90	22
+a	23
+action	31
+activ	33
+add	34
+adp	35
+advanc	36
+advice	37
+advisori	38
+after	41
+afterhour	72
+afterhours	81
+against	82
+ahead	83
+alcoa	87
+aliv	88
+an	89
+and	90
+anoth	96
+another	97
+anxiety	98
+appl	99
+applaud	100
+april	101
+ar	103
+as	104
+asia	118
+asian	124
+assess	129
+at	130
+auction	131
+august	132
+await	133
+b	134
+back	135
+bank	136
+banks	140
+bargain	141
+barn	142
+barrel	143
+batten	144
+battle	145
+bear	146
+befor	147
+behind	148
+bernank	149
+bernanke	151
+best	154
+bid	155
+big	156
+bill	158
+billion	159
+birthday	160
+blackrock	161
+bloodbath	162
+boe	163
+boost	164
+boost	165
+bottom	166
+bottom	167
+bounc	168
+brazil	169
+brazilian	174
+break	175
+breakout	176
+brent	177
+bright	178
+broader	179
+bubble	180
+buckl	181
+budget	182
+bull	183
+bulls	187
+but	188
+buy	192
+by	194
+calm	200
+calmer	201
+canada	202
+canadian	208
+cancel	209
+cheer	210
+chevron	211
+china	213
+chines	217
+choppy	218
+cisco	219
+citi	220
+clearwir	221
+climb	222
+close	225
+come	227
+comi	228
+commod	229
+commun	230
+concerns	231
+confid	233
+consid	235
+consum	236
+continu	238
+copper	239
+crash	240
+credit	241
+creditl	242
+crisi	243
+crisis	244
+crude	245
+cut	246
+cut	248
+data	250
+data	256
+day	267
+day	269
+debt	271
+debt	275
+debtceil	276
+debtdefault	278
+decad	279
+december	280
+decision	281
+declin	282
+declines	288
+dell	289
+demand	290
+denbury	291
+detroit	292
+disappoint	293
+disasterpron	294
+dollar	295
+donat	298
+doubledigit	299
+dow	300
+down	305
+down	308
+downgrad	311
+drop	312
+drop	320
+drug	322
+earn	324
+eas	326
+econom	327
+economy	329
+edg	330
+efforts	336
+egypt	337
+end	338
+endofquart	345
+energy	346
+energy	350
+energysector	351
+energystock	352
+epic	353
+etf	354
+etrade	355
+euro	356
+europ	357
+european	361
+eurozon	362
+exist	363
+exit	364
+express	365
+extend	366
+exxon	370
+ey	372
+fall	373
+fall	389
+falls	391
+fear	393
+february	399
+fed	401
+financi	407
+finish	415
+first	416
+flat	417
+flirt	419
+focu	420
+focus	423
+follow	425
+for	426
+forecast	441
+futur	442
+g7	469
+ga	470
+gain	471
+gain	484
+gains	485
+gap	489
+geezer	490
+get	491
+gird	494
+give	495
+global	497
+gold	500
+googl	504
+google	505
+great	506
+greec	507
+greece	510
+greek	511
+greekdowngrad	514
+growth	515
+happy	517
+hard	518
+hatch	519
+haunt	520
+head	521
+health	522
+here	523
+high	524
+high	525
+higher	526
+higher	531
+highlight	533
+highs	534
+hike	535
+hike	536
+hint	537
+hit	538
+home	543
+hong	544
+hope	545
+hope	546
+hopes	547
+hot	548
+hours	549
+hous	555
+hp	557
+hurt	562
+if	563
+in	564
+incom	600
+index	601
+indicator	603
+industri	604
+inflat	606
+initi	609
+intensify	610
+invest	611
+investor	612
+investors	616
+is	617
+ism	620
+isnt	621
+january	622
+japan	623
+job	627
+join	633
+july	634
+jump	635
+june	637
+key	639
+kodak	640
+kong	641
+kraft	642
+labor	643
+lag	644
+last	646
+lastminut	647
+late	648
+lead	649
+leader	656
+led	657
+left	658
+lessanxi	659
+level	660
+libya	661
+lift	662
+like	665
+look	666
+looni	669
+lose	671
+losi	673
+loss	676
+losses	682
+low	683
+lower	684
+lowest	692
+lows	693
+ma	694
+major	695
+make	696
+manufactur	698
+marathon	699
+march	700
+market	701
+market	715
+marketwatch	717
+marvel	720
+may	722
+medicar	725
+merger	726
+mexican	727
+mexico	730
+mini	734
+minor	735
+minutes	736
+mix	737
+money	739
+month	740
+moody	742
+more	743
+most	744
+mostly	749
+mount	750
+move	751
+moves	753
+multiyear	754
+mumbai	755
+nasdaq	756
+nasdaq	757
+near	758
+need	759
+nerv	760
+netflix	761
+new	762
+news	767
+nike	768
+ninth	769
+no	770
+nobl	771
+note	772
+now	773
+nuclearcrisi	775
+numbers	776
+nvidia	777
+obama	779
+occident	780
+oct	781
+of	782
+off	793
+offer	797
+oil	798
+on	806
+open	833
+oracl	834
+outlook	836
+output	837
+over	839
+oversea	840
+pandora	841
+pare	842
+patch	843
+period	844
+peso	845
+philly	846
+pick	847
+plan	848
+play	849
+plung	850
+point	851
+posit	853
+post	854
+pressur	855
+pressure	856
+pressured	857
+pricelinecom	858
+prices	859
+quake	860
+quarter	861
+quarter	862
+quarterly	863
+rally	864
+rally	869
+rare	873
+rate	874
+rating	877
+rebound	878
+recede	879
+recess	880
+recession	882
+record	883
+record	884
+recov	885
+recovery	886
+relief	887
+relinquish	888
+remain	889
+renren	890
+replay	891
+report	892
+report	893
+republican	894
+rest	895
+results	896
+retail	898
+retreat	901
+retreat	902
+richard	904
+rim	905
+rise	907
+rise	920
+rises	922
+risk	925
+risk	926
+roof	927
+rough	928
+rout	929
+row	932
+rowan	933
+run	934
+russell	935
+sag	936
+sale	937
+salesforc	943
+score	944
+script	945
+second	946
+secondquart	948
+see	949
+seek	950
+seesaw	951
+sell	952
+selloff	953
+semil	955
+send	956
+sentiment	957
+sentiment	958
+seoul	959
+session	960
+session	961
+set	962
+settl	964
+shake	965
+shanghai	966
+share	968
+shares	979
+shift	980
+show	981
+signal	982
+sinc	983
+sink	986
+six	987
+sixmonth	988
+sixth	989
+slam	990
+slide	991
+slip	993
+slips	999
+slump	1000
+snap	1001
+soft	1003
+soften	1004
+sp	1005
+specul	1007
+spell	1008
+spot	1009
+sprint	1010
+spur	1011
+stall	1012
+stay	1013
+stealth	1014
+steel	1015
+steep	1016
+stem	1017
+stock	1018
+stocks	1107
+stocks’	1109
+stori	1110
+storms	1113
+straight	1114
+streak	1115
+streak	1118
+streaks	1120
+street	1121
+street	1125
+strength	1126
+strong	1127
+strong	1128
+suffer	1129
+surg	1130
+surpris	1131
+surprises	1133
+swoon	1136
+sydney	1137
+symantec	1139
+takeov	1140
+talk	1141
+tech	1142
+technicals	1148
+technolog	1149
+telecom	1151
+templeinland	1152
+tenet	1153
+tent	1154
+that	1156
+the	1157
+thi	1172
+third	1173
+threat	1174
+three	1175
+through	1177
+thursday	1178
+ti	1179
+time	1182
+to	1183
+tokyo	1205
+tokyo	1208
+tone	1209
+top	1210
+topic	1215
+trade	1216
+trade	1218
+trader	1222
+tradi	1223
+trading	1225
+trail	1228
+travel	1229
+treasury	1230
+trend	1236
+tumbl	1237
+uncertainty	1238
+unexpectedly	1239
+unit	1240
+up	1241
+up	1257
+upbeat	1258
+updat	1259
+us	1262
+us	1319
+uss	1320
+valeant	1321
+verisign	1322
+view	1323
+volatil	1324
+volatile	1326
+vote	1327
+vulner	1329
+wa	1330
+wall	1331
+walmart	1336
+warn	1337
+wary	1338
+watch	1339
+waver	1341
+wd40	1342
+we	1343
+weak	1344
+weaken	1346
+weaken	1347
+weakness	1348
+week	1349
+week	1352
+weekly	1359
+weigh	1363
+well	1366
+when	1367
+whipsaw	1368
+why	1369
+widen	1371
+win	1372
+with	1374
+world	1379
+worri	1380
+worries	1381
+worst	1384
+wrap	1385
+yahoo	1386
+years	1387
+yen	1388
+yet	1390
+yield	1391
+york	1393
+yorktrad	1394
+your	1395

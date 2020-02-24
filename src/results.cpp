@@ -25,7 +25,7 @@ void Results::print(){
     std::ofstream posting_writer;
     dictionary_writer.open(output_filename);
     posting_writer.open(post_filename);
-    create_offset();
+
     int offset = 0;
     if(!dictionary_writer.is_open()){
         std::cerr << "No work" << std::endl;

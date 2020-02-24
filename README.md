@@ -5,6 +5,8 @@ Please note: Porter's Stemmer was used in this project and is not our unique wor
 
 The project appears to run well although sometimes the stemmer will not return the correct index in the string for the tokenizer to cut the string. 
 
+This project is done with C++.
+
 
 To compile, type "make"
 

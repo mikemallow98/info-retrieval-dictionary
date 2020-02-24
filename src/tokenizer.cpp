@@ -114,7 +114,6 @@ std::vector<TermPair> Tokenizer::tokenize(){
     std::vector<std::string> tmp_str;
     FileParser fp(inp_file);
     docs = fp.parse();
-    //std::cout << "The number of documents is: " << docs.size() << std::endl;
     for(auto i = docs.begin(); i != docs.end(); ++i){
         case_fold(*i);
         remove_punct(*i, C_REMOVE);
@@ -123,19 +122,16 @@ std::vector<TermPair> Tokenizer::tokenize(){
             add_to_term_list(*s, i->id);
         }
     }
-    //std::cerr << "No seg fault before the stemming " << terms.size() << std::endl;
+
     //runs the terms through Porter's stemmer.  
     for(auto i = terms.begin(); i != terms.end(); ++i){
-        //std::cerr << i->term << "->";
         char tmp[i->term.length() +  4];
         int m;
         std::strcpy(tmp, i->term.c_str());
         m = stem(tmp, 0, i->term.length()-1);
-        std::string str1 = i->term.substr(0, m+1) + '\0';
+        std::string str1 = i->term.substr(0, m+1);
         i->term = str1;
-        std::cout << i->term << " "<< i->docID <<std::endl;
     }
-    //std::cerr << "Stemming is done" << std::endl;
     sort_terms();
     return terms;
 }

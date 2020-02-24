@@ -19,7 +19,6 @@ int main(int argc, char * argv[]){
 	while((k = getopt(argc, argv, FLAG_LIST)) != -1){
 		switch(k){
 			case 'i':
-				std::cout << "input file is: " << optarg << std::endl;
 				inp_flag = true;
 				input_filename = optarg;
 				break;
@@ -57,11 +56,11 @@ int main(int argc, char * argv[]){
 	//Run the PostingHandler to create the dictionary entries list.
 	PostingHandler p1(t_pairs);
 	d_entries = p1.calculate();
-	for(auto i = d_entries.begin(); i != d_entries.end(); ++i){
+	//for(auto i = d_entries.begin(); i != d_entries.end(); ++i){
 		//std::cout << i->term << "\t" << i->document_frequency << std::endl;
-	}
+	//}
 
 	//Run the Results to create the results.
-	//Results r1(dictionary_filename, postings_filename, d_entries);
-	//r1.print();
+	Results r1(dictionary_filename, postings_filename, d_entries);
+	r1.print();
 }
